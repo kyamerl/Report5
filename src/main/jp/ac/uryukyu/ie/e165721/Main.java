@@ -7,8 +7,10 @@ package jp.ac.uryukyu.ie.e165721;
 
 public class Main {
     public static void main(String[] args){
-        String str = null;
+        String str = "3．14";
+        double value;
         try {
+            value = Double.parseDouble(str);
             System.out.println(str.length());
         }catch(NullPointerException e){
             //NullPointerExceptionが起きた時の処理
